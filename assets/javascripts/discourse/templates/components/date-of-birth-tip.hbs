@@ -1,0 +1,6 @@
+<a {{action 'toggleTip'}}>
+  {{d-icon 'question-circle'}}
+</a>
+{{#if showTip}}
+  <span class="tip">{{i18n 'user.date_of_birth.tip'}}</span>
+{{/if}}

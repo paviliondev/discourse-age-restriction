@@ -1,0 +1,40 @@
+.create-account table tr.input.date-of-birth {
+  td.label {
+    width: auto;
+    align-items: center;
+
+    label {
+      width: auto;
+    }
+
+    .date-of-birth-tip {
+      position: relative;
+      margin-left: 5px;
+
+      a {
+        color: $primary;
+      }
+
+      .tip {
+        position: absolute;
+        left: 15px;
+        top: -15px;
+        width: 200px;
+        box-shadow: shadow("card");
+        z-index: 1;
+        background-color: $secondary;
+        padding: 5px 8px;
+      }
+    }
+  }
+
+  .select-kit {
+    width: 100px;
+  }
+}
+
+.create-account table tr.instructions.date-of-birth {
+  .tip:not(:empty) {
+    width: auto;
+  }
+}

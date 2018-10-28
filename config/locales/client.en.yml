@@ -1,0 +1,15 @@
+en:
+  js:
+    user:
+      date_of_birth:
+        label: "Date of Birth"
+        instructions: "your date of birth"
+        tip: "This is just for age verification and is not stored"
+        day:
+          label: "Day"
+        month:
+          label: "Month"
+        year:
+          label: "Year"
+      age:
+        invalid: "You must be 13 or over to create an account"
