@@ -1,7 +1,11 @@
 .create-account table tr.input.date-of-birth {
+  width: 100%;
+  max-width: 300px;
+
   td.label {
     width: auto;
     align-items: center;
+    display: flex;
 
     label {
       width: auto;
@@ -28,8 +32,12 @@
     }
   }
 
-  .select-kit {
-    width: 100px;
+  td.inputs {
+    width: 100%;
+
+    .select-kit {
+      max-width: 30% !important;
+    }
   }
 }
 
