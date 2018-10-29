@@ -34,11 +34,12 @@
   }
 
   td.inputs {
-    width: 100%;
+    width: 260px;
     justify-content: space-between;
 
     .select-kit {
-      max-width: 32% !important;
+      width: 80px !important;
+      max-width: 80px !important;
     }
   }
 }

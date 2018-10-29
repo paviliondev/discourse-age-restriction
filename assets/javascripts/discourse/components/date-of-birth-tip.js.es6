@@ -19,6 +19,14 @@ export default Ember.Component.extend({
     }
   },
 
+  mouseEnter() {
+    this.set('showTip', true);
+  },
+
+  mouseLeave() {
+    this.set('showTip', false);
+  },
+
   actions: {
     toggleTip() {
       this.toggleProperty('showTip');
