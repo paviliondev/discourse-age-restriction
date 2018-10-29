@@ -24,6 +24,7 @@
         left: 15px;
         top: -15px;
         width: 200px;
+        max-width: 50vw;
         box-shadow: shadow("card");
         z-index: 1;
         background-color: $secondary;
