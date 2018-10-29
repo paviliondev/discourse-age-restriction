@@ -34,9 +34,10 @@
 
   td.inputs {
     width: 100%;
+    justify-content: space-between;
 
     .select-kit {
-      max-width: 30% !important;
+      max-width: 32% !important;
     }
   }
 }
