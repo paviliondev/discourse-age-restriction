@@ -12,4 +12,4 @@ en:
         year:
           label: "Year"
       age:
-        invalid: "You must be 13 or over to create an account"
+        invalid: "You must be 13 or over"
