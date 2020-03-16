@@ -1,29 +1,38 @@
 <tr class="input date-of-birth">
   <td class="label">
-    <label for='date-of-birth'>{{i18n 'user.date_of_birth.label'}}</label>
+    <label for='date-of-birth'>
+      {{i18n 'user.date_of_birth.label'}}
+    </label>
     {{date-of-birth-tip}}
   </td>
   <td class="inputs">
-    {{combo-box content=months
-                value=month
-                valueAttribute="value"
-                none="user.date_of_birth.month.label"
-                class="month"}}
-    {{combo-box content=days
-                value=day
-                valueAttribute="value"
-                none="user.date_of_birth.day.label"
-                class="day"}}
-    {{combo-box content=years
-                value=year
-                valueAttribute="value"
-                none="user.date_of_birth.year.label"
-                class="year"}}
+    {{combo-box
+      content=months
+      value=month
+      valueAttribute="value"
+      none="user.date_of_birth.month.label"
+      class="month"}}
+    {{combo-box
+      content=days
+      value=day
+      valueAttribute="value"
+      none="user.date_of_birth.day.label"
+      class="day"}}
+    {{combo-box
+      content=years
+      value=year
+      valueAttribute="value"
+      none="user.date_of_birth.year.label"
+      class="year"}}
   </td>
 </tr>
 
 <tr class="instructions date-of-birth">
   <td></td>
   {{input-tip validation=ageValidation}}
-  <td><label>{{i18n 'user.date_of_birth.instructions'}}</label></td>
+  <td>
+    <label>
+      {{i18n 'user.date_of_birth.instructions'}}
+    </label>
+  </td>
 </tr>

@@ -38,8 +38,15 @@
     justify-content: space-between;
 
     .select-kit {
-      width: 80px !important;
-      max-width: 80px !important;
+      width: 70px !important;
+      max-width: 70px !important;
+      min-width: 70px !important;
+      
+      &.month {
+        width: 100px !important;
+        max-width: 100px !important;
+        min-width: 100px !important;
+      }
     }
   }
 }

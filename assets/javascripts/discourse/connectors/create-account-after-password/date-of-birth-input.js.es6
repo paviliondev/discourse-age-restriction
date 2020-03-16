@@ -9,11 +9,15 @@ export default {
     const controller = getOwner(this).lookup('controller:create-account');
 
     component.setProperties({
-      days: _.range(1, 32),
-      months: moment.months().map((month, index) => {
-        return { name: month, value: index + 1 };
+      days: _.range(1, 32).map(i => {
+        return { name: i, value: i };
       }),
-      years: _.range(1940, 2013).reverse()
+      months: moment.months().map((m, i) => {
+        return { name: m, value: i + 1 };
+      }),
+      years: _.range(1940, 2013).reverse().map(i => {
+        return { name: i, value: i };
+      })
     });
 
     const validateDateOfBirth = function() {
